@@ -10,12 +10,12 @@ export default function Home() {
 
   const products = [
     {
-      name: "High-End Motherboard X1",
+      name: "High-End Headboard X1",
       price: "₹6,999",
       desc: "Powerful and durable for advanced systems.",
     },
     {
-      name: "Precision Machine Z2",
+      name: "High-End mainboard X2",
       price: "₹29,999",
       desc: "Efficient for industrial-grade work.",
     },
@@ -28,19 +28,8 @@ export default function Home() {
 
   return (
     <div className="home">
-      {/* Navbar */}
-      <nav className="navbar">
-        <div className="navbar-logo">OSR Solution</div>
-        <div className="hamburger" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-          &#9776;
-        </div>
-        <ul className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
-          <li><a href="#home" onClick={() => setIsMobileMenuOpen(false)}>Home</a></li>
-          <li><a href="#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a></li>
-          <li><a href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a></li>
-          <li><a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a></li>
-        </ul>
-      </nav>
+       
+       
 
       {/* Hero Section */}
       <section id="home" className="hero">
@@ -73,8 +62,11 @@ export default function Home() {
       <section id="about" className="about">
         <h2>About OSR Solution</h2>
         <p>
-          OSR Solution provides top-quality tech products and industrial machines. We ensure the best performance, quality, and customer support for all your technical needs.
-        </p>
+        OSR Solution is a trusted provider of high-quality machines, motherboard and headboard repairs,
+          ink cartridges, and main boards. With a strong presence across India, we pride ourselves on offering
+          the best-in-class service, expert technical support, and reliable delivery for all your industrial
+          and printing needs. Whether you're looking for precision hardware or dependable consumables,
+          OSR Solution is your one-stop destination.                </p>
       </section>
 
       {/* Contact Section */}
