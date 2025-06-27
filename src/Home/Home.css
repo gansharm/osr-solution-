@@ -1,0 +1,93 @@
+/* Home.css */
+.home {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #dbeafe, #eff6ff);
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #1e3a8a;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.primary-btn {
+  background: #1e3a8a;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.products h2,
+.about h2,
+.contact h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #2563eb;
+}
+
+.buy-btn {
+  background: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.about,
+.contact {
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #e0f2fe;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-btn {
+  background-color: #0284c7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
