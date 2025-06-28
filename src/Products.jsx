@@ -55,7 +55,7 @@ export default function Products() {
               <p>{item.description}</p>
               {item.price && <p className="product-price">₹{item.price.toLocaleString()}</p>}
               <Link
-                to={`/product/${item.name.toLowerCase().replace(/\s/g, "-")}`}
+                to={`/shop/${item.name.toLowerCase().replace(/\s/g, "-")}`}
                 state={item}
               >
                 <button className="view-btn">View Product</button>
