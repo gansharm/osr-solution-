@@ -3,10 +3,12 @@ import './navbar.css';
 import './Home.css';
 import './Burger.css'
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+const navigate = useNavigate();
 
   const products = [
     {
@@ -35,7 +37,9 @@ export default function Home() {
       <section id="home" className="hero">
         <h1>OSR Solution</h1>
         <p>Your one-stop shop for Motherboards, Machines & Ink</p>
-        <button className="primary-btn">Shop Now</button>
+        <button className="primary-btn" onClick={() => navigate("/products")}>
+  Shop Now
+</button>
       </section>
 
       {/* Products */}
